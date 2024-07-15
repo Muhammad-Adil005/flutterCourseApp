@@ -1,0 +1,23 @@
+/*
+if we don't want to change the value of the Variable later we used const & final
+
+void main() {
+  print("Hello World");
+
+  final String num1;
+  num1 = "Adil";
+
+  // num1 = "Khan"; // Issue The final vairable 'num1' can only be set once.
+
+  print(num1);
+
+  const String num2 = "Shinwari";
+
+  num2 = "LKL"; // Issue Constant Variables can't be assigned value.
+
+  print(num2);
+}
+
+
+Note :> Use final when you need variables that cannot be reassigned but can be computed at runtime. Use const for values that are known at compile time to enhance performance and ensure immutability
+*/
